@@ -14,10 +14,10 @@ public final class Iteminit {
     public static final DeferredRegister<Item> items = DeferredRegister.create(ForgeRegistries.ITEMS, TutorialMod.modid);
 
     public static final RegistryObject<Item> example_item = items.register("example_item",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).fireResistant()));
+            () -> new Item(new Item.Properties().tab(TutorialMod.ADDONS_TAB).fireResistant()));
 
     //Block Items
     public static final RegistryObject<BlockItem> EXAMPLE_BLOCK_ITEM = items.register("example_block",
             () -> new BlockItem(Blockinit.EXAMPLE_BLOCK.get(),
-                    new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS).fireResistant()));
+                    new Item.Properties().tab(TutorialMod.ADDONS_TAB).fireResistant()));
 }
