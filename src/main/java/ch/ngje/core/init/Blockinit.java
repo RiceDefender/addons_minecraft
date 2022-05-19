@@ -20,5 +20,7 @@ public final class Blockinit {
             () -> new Block(BlockBehaviour.Properties.of(Material.CLAY, MaterialColor.TERRACOTTA_BLUE)
                     .strength(5.0F, 3.0F).requiresCorrectToolForDrops().friction(0.5f)));
 
-
+    // this is the block for Remium the resource of remium ingots for the hammer.
+    public static final RegistryObject<Block> REMIUM_ORE = BLOCKS.register("remium_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_GRAY).requiresCorrectToolForDrops().destroyTime(10f).friction(0.5f)));
 }
