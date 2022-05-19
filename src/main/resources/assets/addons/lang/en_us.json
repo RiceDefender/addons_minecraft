@@ -1,4 +1,5 @@
 {
   "item.addons.example_item":"GIGACHADITEM",
-  "block.addons.example_block": "Copium"
+  "block.addons.example_block": "Copium",
+  "itemGroup.addons": "Addons"
 }
