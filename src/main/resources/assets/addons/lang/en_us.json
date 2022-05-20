@@ -1,5 +1,9 @@
 {
   "item.addons.example_item":"GIGACHADITEM",
   "block.addons.example_block": "Copium",
+<<<<<<< HEAD
   "itemGroup.addons": "Addons"
+=======
+  "block.addons.remium_ore": "Reimum Ore"
+>>>>>>> 6e1239700a11ce91b9b4e9f644ad9369a6fb174a
 }

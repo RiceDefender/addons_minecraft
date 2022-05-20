@@ -1,5 +1,10 @@
 {
+<<<<<<< HEAD
   "variants":{
     "": {"model":  "addons:block/example_block"}
+=======
+  "variants": {
+    "": {"model": "addons:block/example_block"}
+>>>>>>> 6e1239700a11ce91b9b4e9f644ad9369a6fb174a
   }
 }

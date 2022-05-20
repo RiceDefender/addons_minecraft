@@ -19,5 +19,13 @@ public final class Iteminit {
     //Block Items
     public static final RegistryObject<BlockItem> EXAMPLE_BLOCK_ITEM = items.register("example_block",
             () -> new BlockItem(Blockinit.EXAMPLE_BLOCK.get(),
+<<<<<<< HEAD
                     new Item.Properties().tab(TutorialMod.ADDONS_TAB).fireResistant()));
+=======
+                    new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS).fireResistant()));
+
+    // this is the item for Remium the resource of remium ingots for the hammer.
+    public static final RegistryObject<BlockItem> REMIUM_ORE_ITEM = items.register("remium_ore",
+            () -> new BlockItem(Blockinit.REMIUM_ORE.get(), new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
+>>>>>>> 6e1239700a11ce91b9b4e9f644ad9369a6fb174a
 }
