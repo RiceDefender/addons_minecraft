@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "addons:example_block"
+    "addons:example_block",
+    "addons:remium_ore"
   ]
 }

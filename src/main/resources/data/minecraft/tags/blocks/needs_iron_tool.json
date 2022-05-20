@@ -1,6 +1,6 @@
 {
   "replace": false,
-  "values": [
+  "values":[
     "addons:example_block"
   ]
 }
